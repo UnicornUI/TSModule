@@ -3,6 +3,9 @@ import modString from "./string";
 import modBoolean from "./boolean";
 import modNone from "./none";
 import modAny from "./any";
+import modArray from "./array"
+import modFunc from "./function"
+import modInterface from "./interface"
 
 const run = () => {
   //  number
@@ -16,8 +19,12 @@ const run = () => {
   modNone.voidMethod("void");
   // any, unknown
   modAny.declare();
-
-  
+  // array, tuple
+  modArray.declare();
+  // function
+  modFunc.declare();
+  // interface 
+  modInterface.declare();
 
 }
 
