@@ -6,6 +6,7 @@ import modAny from "./any";
 import modArray from "./array"
 import modFunc from "./function"
 import modInterface from "./interface"
+import modClass from "./class"
 
 const run = () => {
   //  number
@@ -25,7 +26,10 @@ const run = () => {
   modFunc.declare();
   // interface 
   modInterface.declare();
-
+  // class
+  modClass.declare();
+  modClass.staticMethod();
+  modClass.classInterface();
 }
 
 export default { run };
