@@ -48,14 +48,14 @@ const highlightSearchContent = (content: string) => {
   console.log(html);
 }
 
-const extractElement= (element: string)  => {
+const extractElement = (element: string) => {
   const content = `
     <body>
       <h1>houdunren.com</h1>
-      <h1>hdcms.com</h1>
+      <h1>hdcms.com</h1>hashks
     </body>`;
 
-  let reg = new RegExp("<("+ element+")>.+</\\1>", "g")
+  let reg = new RegExp("<(" + element + ")>.+</\\1>", "g")
   console.table(content.match(reg));
 }
 
