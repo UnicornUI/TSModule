@@ -34,7 +34,6 @@ const mode_global = () => {
 }
 
 // 将内容视为多行匹配, 主要是针对 `^` 和 `$`
-
 const mode_multi = () => {
   let lesson = `
     #1. js 200 #

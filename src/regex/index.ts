@@ -6,6 +6,7 @@ import regexTable from "./table";
 import regexGroup from "./group";
 import regexMatchNum from "./matchNum";
 import regexMethod from "./method";
+import regexAssert from "./assert";
 
 /**
  * 用于测试正则表达式使用
@@ -35,8 +36,11 @@ const run = () => {
   // 重复匹配
   regexMatchNum.num();
 
-  // 正则方法 
+  // 正则方法
   regexMethod.methods();
+
+  // 正则断言匹配
+  regexAssert.asserts();
 
 }
 
