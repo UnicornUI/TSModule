@@ -1,4 +1,4 @@
-import utilUnion from "./union"
+import typeUnion from "./typeUnion"
 import typeAssertions from "./typeAssertions"
 import typeCross from "./typeCross";
 import typeAlias from "./typeAlias"
@@ -7,8 +7,8 @@ import task from "./task"
 // 运行当前模块内的代码
 const run = () => {
   // union
-  utilUnion.useUnion();
-  utilUnion.useScene();
+  typeUnion.useUnion();
+  typeUnion.useScene();
 
   // assertion
   typeAssertions.useAssertion();
@@ -21,7 +21,7 @@ const run = () => {
   typeAlias.useAlias();
 
   // 执行并发任务
-  task.work();
+  // task.work();
 
 }
 
