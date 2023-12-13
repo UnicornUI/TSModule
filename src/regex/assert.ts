@@ -39,7 +39,7 @@ const beforeAssert = () => {
     console.log(_v);
     console.log(args[1]);
     args[1] = args[1] || ".00";
-    return args.splice(0,2).join("");
+    return args.splice(0, 2).join("");
   });
   console.log(lessons);
 
@@ -93,7 +93,7 @@ const afterAsset = () => {
     画师奎电话: 13245567870
     阴阳师电话: 14233567773
   `;
-  
+
   reg = /(?<=\d{7})(\d+)/g;
   users = users.replace(reg, (_strj) => {
     return '*'.repeat(4);
@@ -108,11 +108,7 @@ const afterAsset = () => {
 
 }
 
-
 // 3.
-
-
-
 
 
 // 正则表达式中的断言

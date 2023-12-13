@@ -4,7 +4,6 @@ import fs from "fs"
  * > 此处用于展示 node 中内模块 fs 的使用
  */
 
-
 // 判断文件是否存在
 const fileOrDirExists = () => {
   // 过时的方法
@@ -34,7 +33,6 @@ const fileState = () => {
   })
 }
 
-
 // 文件的创建
 const fileOpenAndWrite = () => {
   // 打开文件, 获取到文件描述符, 当我们使用写入模式打开
@@ -55,13 +53,17 @@ const fileOpenAndWrite = () => {
   });
 }
 
-
+// 读取文件内容
+const readFile = () => {
+   
+}
 
 // 用于演示 fs 操作
 const run = () => {
   fileOrDirExists();
   fileState();
   fileOpenAndWrite();
+  readFile();
 }
 
 // 导出当前组件
