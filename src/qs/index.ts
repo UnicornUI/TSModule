@@ -8,9 +8,9 @@ const parse = () => {
 }
 
 const run = () => {
-    
+
 }
 
 export default {
-    run  
+    run
 }

@@ -5,8 +5,6 @@ import { sectionSeparator } from "../utils/index";
  * 可以将断言理解为 正则中的条件
  */
 
-
-
 // 1. 零宽先行断言 (?=exp),
 // 匹配那些后面满足 exp 正则的内容
 const beforeAssert = () => {
